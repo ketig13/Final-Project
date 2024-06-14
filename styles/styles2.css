@@ -57,24 +57,41 @@ header{
 body{
     background-color: black;
 }
- .watch{
+
+  .watch{
+    background-image: url(../images/img2.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-} 
+    height: 610px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}  
 div .watch:hover{
     cursor: pointer;
 }
 
-/* .container1{
+.container1{
     width: 150px;
     height: 150px;
-    background: yellow;
-    border: 1px solid blue;
+    background: rgb(97, 23, 23);
+    border: 1px solid black;
     border-radius: 50%;
-
-} */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.fa-play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 60px;
+}
 
 footer{
     width: 100%;
