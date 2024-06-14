@@ -71,9 +71,6 @@ body{
     background-position: center;
     background-color: black;
 }  
-div .watch:hover{
-    cursor: pointer;
-}
 
 .container1{
     width: 150px;
@@ -85,12 +82,30 @@ div .watch:hover{
     justify-content: center;
     align-items: center;
 } 
+div .container1:hover{
+  cursor: pointer;
+}
 .fa-play{
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 60px;
+}
+
+.roles{
+  display: flex;
+  justify-content: space-around;
+}
+
+h2{
+  color: white;
+}
+p{
+  color: white;
+}
+.texxt{
+  display: flex;
 }
 
 footer{

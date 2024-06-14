@@ -13,5 +13,24 @@
       flex-direction: column;
     }
   }
-  
+
+  @media screen and (max-width: 1390px) {
+    .card {
+      width: 330px;
+    }
+    .roles {
+      justify-content: space-around;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .roles{
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 760px) {
+    .texxt{
+      flex-direction: column;
+    }
+  }
+ 
   
