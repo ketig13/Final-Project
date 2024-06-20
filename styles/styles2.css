@@ -104,6 +104,9 @@ h2{
 p{
   color: white;
 }
+.summary{
+  margin-left: 10px;
+}
 .texxt{
   display: flex;
 }

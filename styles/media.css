@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1080px) {
     nav {
       display: none;
     }
@@ -32,5 +32,16 @@
       flex-direction: column;
     }
   }
+
+  @media screen and (max-width: 760px) {
+    .container1{
+      width: 90px;
+      height: 90px;
+    }
+    .fa-play{
+      font-size: 40px;
+    }
+  }
+
  
   
