@@ -38,6 +38,9 @@ header{
     font-size: 25px;
     margin-left: 100px;
   }
+  nav p a{
+    color: rgb(247, 100, 100);
+  }
   .main{
     font-size: 27px;
     color: rgb(243, 134, 134);
@@ -118,6 +121,7 @@ footer{
     background-color: black;
     padding: 40px;
     margin-top: 5px;
+    box-sizing: border-box;
     
 }
 .nav{
