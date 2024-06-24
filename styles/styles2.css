@@ -105,6 +105,7 @@ div .container1:hover{
 
 h2{
   color: white;
+  font-size: 20px;
 }
 p{
   color: white;
@@ -112,8 +113,10 @@ p{
 .summary{
   margin-left: 10px;
 }
+
 .texxt{
   display: flex;
+  font-size: 25px;
 }
 
 footer{
